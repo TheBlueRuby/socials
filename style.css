@@ -1,0 +1,66 @@
+:root {
+	--icon-size: 160px;
+	--title-color: white;
+	--btn-radius: 12px;
+	--btn-bg: #0AF;
+	--btn-bg-hover: #0069FF;
+	--btn-height: 64px;
+	--btn-text-size: 24px;
+	--link-color: white;
+}
+
+* {
+	text-align: center;
+}
+
+body {
+	background: url(./bg.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+}
+
+main {
+	width: 512px;
+}
+
+#branding {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#icon {
+	width: var(--icon-size);
+}
+
+h1 {
+	color: var(--title-color);
+}
+
+#links {
+	padding-left: 0;
+}
+
+.link-button {
+	list-style: none;
+	border-radius: var(--btn-radius);
+	background-color: var(--btn-bg);
+	margin: 8px;
+	height: var(--btn-height);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.link-button:hover {
+	background-color: var(--btn-bg-hover);
+}
+
+#links a {
+	text-decoration: none;
+	font-size: var(--btn-text-size);
+	color: var(--link-color);
+}
