@@ -11,7 +11,7 @@
 
 * {
 	text-align: center;
-	font-family: "Droid Sans";
+	font-family: url(./Ubuntu-Regular.ttf);
 }
 
 body {
