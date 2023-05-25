@@ -11,7 +11,7 @@
 
 * {
 	text-align: center;
-	font-family: url(./Ubuntu-Regular.ttf);
+	font-family: 'Ubuntu Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -64,4 +64,9 @@ h1 {
 	text-decoration: none;
 	font-size: var(--btn-text-size);
 	color: var(--link-color);
+}
+
+@font-face {
+	font-family: 'Ubuntu Regular';
+	src: url(./Ubuntu-Regular.ttf) format('truetype');
 }
